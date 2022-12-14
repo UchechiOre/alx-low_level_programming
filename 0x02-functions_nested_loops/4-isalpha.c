@@ -6,9 +6,9 @@
  * Return: 1 if its alphabet otherwise 0
  */
 
-int _isalpha(int c)
+int main(int c, int _isalpha)
 {
-	if (c >= 65 && c <= 122)
+	if (((c >= 'a') && (c <= 'z')) || ((c >= 'A') && (c <= 'Z')))
 		return (1);
 	else
 		return (0);
