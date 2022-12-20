@@ -1,7 +1,5 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
 
 /**
@@ -9,9 +7,7 @@
  * Return: Always (Success)
  *
  */
-
 int main(void)
-
 {
 	int n;
 	
